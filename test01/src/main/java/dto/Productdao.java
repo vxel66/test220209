@@ -85,7 +85,7 @@ public class Productdao {
 						resultSet.getString(6),
 						resultSet.getString(7),
 						resultSet.getString(8),
-						resultSet.getString(9));
+						resultSet.getString(9),1);
 				product.add(product2);
 			}
 			return product;

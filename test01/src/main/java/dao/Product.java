@@ -17,10 +17,17 @@ public class Product {
 		
 	  }
 	  
+	  public String update(String abc) {
+		  if(abc.equals("작업중")) {
+			  return "-";
+		  }
+		  return abc;
+	  }
 	  
 
 	public Product(int pno, String pitem, String pprint, String pcoating, String phab, String pjub, String ppo,
 			String pdate1, String pdate2) {
+		super();
 		this.pno = pno;
 		this.pitem = pitem;
 		this.pprint = pprint;
@@ -31,6 +38,23 @@ public class Product {
 		this.pdate1 = pdate1;
 		this.pdate2 = pdate2;
 	}
+	
+	
+	public Product(int pno, String pitem, String pprint, String pcoating, String phab, String pjub, String ppo,
+			String pdate1, String pdate2,int abc) {
+		super();
+		this.pno = pno;
+		this.pitem = update(pitem);
+		this.pprint = update(pprint);
+		this.pcoating = update(pcoating);
+		this.phab = update(phab);
+		this.pjub = update(pjub);
+		this.ppo = update(ppo);
+		this.pdate1 = update(pdate1);
+		this.pdate2 = update(pdate2);
+	}
+
+	
 
 
 
