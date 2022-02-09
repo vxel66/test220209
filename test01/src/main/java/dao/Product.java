@@ -18,5 +18,95 @@ public class Product {
 	  }
 	  
 	  
+
+	public Product(int pno, String pitem, String pprint, String pcoating, String phab, String pjub, String ppo,
+			String pdate1, String pdate2) {
+		this.pno = pno;
+		this.pitem = pitem;
+		this.pprint = pprint;
+		this.pcoating = pcoating;
+		this.phab = phab;
+		this.pjub = pjub;
+		this.ppo = ppo;
+		this.pdate1 = pdate1;
+		this.pdate2 = pdate2;
+	}
+
+
+
+	public int getPno() {
+		return pno;
+	}
+
+	public void setPno(int pno) {
+		this.pno = pno;
+	}
+
+	public String getPitem() {
+		return pitem;
+	}
+
+	public void setPitem(String pitem) {
+		this.pitem = pitem;
+	}
+
+	public String getPprint() {
+		return pprint;
+	}
+
+	public void setPprint(String pprint) {
+		this.pprint = pprint;
+	}
+
+	public String getPcoating() {
+		return pcoating;
+	}
+
+	public void setPcoating(String pcoating) {
+		this.pcoating = pcoating;
+	}
+
+	public String getPhab() {
+		return phab;
+	}
+
+	public void setPhab(String phab) {
+		this.phab = phab;
+	}
+
+	public String getPjub() {
+		return pjub;
+	}
+
+	public void setPjub(String pjub) {
+		this.pjub = pjub;
+	}
+
+	public String getPpo() {
+		return ppo;
+	}
+
+	public void setPpo(String ppo) {
+		this.ppo = ppo;
+	}
+
+	public String getPdate1() {
+		return pdate1;
+	}
+
+	public void setPdate1(String pdate1) {
+		this.pdate1 = pdate1;
+	}
+
+	public String getPdate2() {
+		return pdate2;
+	}
+
+	public void setPdate2(String pdate2) {
+		this.pdate2 = pdate2;
+	}
+	  
+	  
+	  
 	  
 }
